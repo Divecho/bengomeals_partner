@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/xml_network_security_config.xml.flat",
+        "source": "com.bongomeals.partner.app-main-44:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/raw_uber.mp3.flat",
+        "source": "com.bongomeals.partner.app-main-44:/raw/uber.mp3"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.bongomeals.partner.app-main-44:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.bongomeals.partner.app-merged_res-42:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.bongomeals.partner.app-main-44:/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]

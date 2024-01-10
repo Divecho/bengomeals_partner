@@ -1,0 +1,842 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bongomeals.partner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:3:5-67
+12-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:4:5-66
+13-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:4:22-63
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:5:5-80
+14-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:5:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:6:5-79
+15-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:6:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:7:5-80
+16-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:7:22-78
+17
+18    <permission
+18-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:9:5-11:47
+19        android:name="android.permission.ACCESS_COARSE_LOCATION"
+19-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:10:9-65
+20        android:protectionLevel="signature" />
+20-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:11:9-44
+21    <permission
+21-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:12:5-14:46
+22        android:name="android.permission.ACCESS_FINE_LOCATION"
+22-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:13:9-63
+23        android:protectionLevel="signature" />
+23-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:14:9-44
+24
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->[com.facebook.flipper:flipper:0.125.0] C:\Users\dell\.gradle\caches\transforms-3\1562ab743db588f9c64b07584b24d5e5\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+25-->[com.facebook.flipper:flipper:0.125.0] C:\Users\dell\.gradle\caches\transforms-3\1562ab743db588f9c64b07584b24d5e5\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->[:react-native-firebase_database] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\database\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-68
+26-->[:react-native-firebase_database] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\database\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-65
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to access Google Play Licensing -->
+27-->[:react-native-firebase_database] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\database\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+27-->[:react-native-firebase_database] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\database\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+28    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required to read and write the expansion files on shared storage -->
+28-->[:rn-fetch-blob] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-73
+28-->[:rn-fetch-blob] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-70
+29    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+29-->[:rn-fetch-blob] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:5-81
+29-->[:rn-fetch-blob] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:22-78
+30    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+31    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+31-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+31-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+32
+33    <queries>
+33-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:10:5-39:15
+34        <intent>
+34-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:11:9-17:18
+35            <action android:name="android.intent.action.VIEW" />
+35-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:12:13-65
+35-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:12:21-62
+36
+37            <data
+37-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:14:13-16:38
+38                android:mimeType="*/*"
+38-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:15:17-39
+39                android:scheme="*" />
+39-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:16:17-35
+40        </intent>
+41        <intent>
+41-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:18:9-27:18
+42            <action android:name="android.intent.action.VIEW" />
+42-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:12:13-65
+42-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:12:21-62
+43
+44            <category android:name="android.intent.category.BROWSABLE" />
+44-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:21:13-74
+44-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:21:23-71
+45
+46            <data
+46-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:14:13-16:38
+47                android:host="pay"
+48                android:mimeType="*/*"
+48-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:15:17-39
+49                android:scheme="upi" />
+49-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:16:17-35
+50        </intent>
+51        <intent>
+51-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:28:9-30:18
+52            <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:59:13-65
+52-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:59:21-62
+53        </intent>
+54        <intent>
+54-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:31:9-35:18
+55            <action android:name="android.intent.action.SEND" />
+55-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:32:13-65
+55-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:32:21-62
+56
+57            <data android:mimeType="*/*" />
+57-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:14:13-16:38
+57-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:15:17-39
+58        </intent>
+59        <intent>
+59-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:36:9-38:18
+60            <action android:name="rzp.device_token.share" />
+60-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:37:13-61
+60-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:37:21-58
+61        </intent>
+62        <!-- Needs to be explicitly declared on Android R+ -->
+63        <package android:name="com.google.android.apps.maps" />
+63-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\dell\.gradle\caches\transforms-3\4ce1a811539468a6aefb5e2869c33714\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+63-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\dell\.gradle\caches\transforms-3\4ce1a811539468a6aefb5e2869c33714\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+64    </queries>
+65
+66    <uses-feature
+66-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\dell\.gradle\caches\transforms-3\4ce1a811539468a6aefb5e2869c33714\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+67        android:glEsVersion="0x00020000"
+67-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\dell\.gradle\caches\transforms-3\4ce1a811539468a6aefb5e2869c33714\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+68        android:required="true" />
+68-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\dell\.gradle\caches\transforms-3\4ce1a811539468a6aefb5e2869c33714\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+69
+70    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+70-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:25:5-77
+70-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:25:22-74
+71    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+71-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:28:5-82
+71-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:28:22-79
+72    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+72-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\7c10eaff25a7549596321c8256f985ce\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:25:5-79
+72-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\7c10eaff25a7549596321c8256f985ce\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:25:22-76
+73    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+73-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:26:5-110
+73-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:26:22-107
+74    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+75    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+76    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+77    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+78    <!-- for Samsung -->
+79    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+79-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+79-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+80    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+80-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+80-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+81    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+81-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+81-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+82    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+82-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+82-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+83    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+83-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+83-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+84    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+84-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+84-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+85    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+85-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+85-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+86    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+86-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+86-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+87    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+87-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+87-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+88    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+88-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+88-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+89    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+89-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+89-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+90    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+90-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+90-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+91    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+91-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+91-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+92    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+92-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+92-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+93    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+93-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+93-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+94    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+94-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+94-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\dell\.gradle\caches\transforms-3\9f3d5504c2bfc6b6a12028b414a2a67a\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+95
+96    <application
+96-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:16:5-68:19
+97        android:name="com.bongomeals.partner.MainApplication"
+97-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:17:7-38
+98        android:allowBackup="false"
+98-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:21:7-34
+99        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+99-->[androidx.core:core:1.7.0] C:\Users\dell\.gradle\caches\transforms-3\06d644afd2de2d22a007cd68b4b451df\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+100        android:debuggable="true"
+101        android:icon="@mipmap/ic_launcher"
+101-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:19:7-41
+102        android:label="@string/app_name"
+102-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:18:7-39
+103        android:networkSecurityConfig="@xml/network_security_config"
+103-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:24:7-67
+104        android:roundIcon="@mipmap/ic_launcher_round"
+104-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:20:7-52
+105        android:theme="@style/AppTheme"
+105-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:22:7-38
+106        android:usesCleartextTraffic="true" >
+106-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:23:7-42
+107        <activity
+107-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\debug\AndroidManifest.xml:11:9-111
+108            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+108-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\debug\AndroidManifest.xml:11:19-83
+109            android:exported="false" />
+109-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\debug\AndroidManifest.xml:11:84-108
+110        <!-- Change the value to true to enable pop-up for in foreground on receiving remote notifications (for prevent duplicating while showing local notifications set this to false) -->
+111        <meta-data
+111-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:27:9-28:44
+112            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+112-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:27:21-97
+113            android:value="false" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+113-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:28:21-42
+114        <meta-data
+114-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:30:9-31:54
+115            android:name="com.dieam.reactnativepushnotification.notification_color"
+115-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:30:21-92
+116            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+116-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:31:21-52
+117        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+117-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:33:9-109
+117-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:33:20-106
+118        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+118-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:34:9-111
+118-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:34:20-108
+119        <receiver
+119-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:35:9-41:20
+120            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+120-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:35:43-139
+121            android:exported="true" >
+121-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:35:19-42
+122            <intent-filter>
+122-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:36:13-40:29
+123                <action android:name="android.intent.action.BOOT_COMPLETED" />
+123-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:37:17-79
+123-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:37:25-76
+124                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+124-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:38:17-82
+124-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:38:25-79
+125                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+125-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:39:17-81
+125-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:39:25-79
+126            </intent-filter>
+127        </receiver>
+128
+129        <service
+129-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:43:9-49:19
+130            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+130-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:44:13-107
+131            android:exported="false" >
+131-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:45:13-37
+132            <intent-filter>
+132-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:46:13-48:29
+133                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+133-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:47:17-78
+133-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:47:25-75
+134            </intent-filter>
+135        </service>
+136
+137        <activity
+137-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:51:7-62:18
+138            android:name="com.bongomeals.partner.MainActivity"
+138-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:52:9-37
+139            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+139-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:54:9-118
+140            android:exported="true"
+140-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:57:9-32
+141            android:label="@string/app_name"
+141-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:53:9-41
+142            android:launchMode="singleTask"
+142-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:55:9-40
+143            android:windowSoftInputMode="adjustResize" >
+143-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:56:9-51
+144            <intent-filter>
+144-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:58:9-61:25
+145                <action android:name="android.intent.action.MAIN" />
+145-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:59:13-65
+145-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:59:21-62
+146
+147                <category android:name="android.intent.category.LAUNCHER" />
+147-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:60:13-73
+147-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:60:23-70
+148            </intent-filter>
+149        </activity>
+150
+151        <meta-data
+151-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:64:8-66:66
+152            android:name="com.google.android.geo.API_KEY"
+152-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:65:9-54
+153            android:value="AIzaSyCp77n_8Z2QDcWMebzUwHK_z3Q1ibZifkA" />
+153-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:66:9-64
+154        <meta-data
+154-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-11:36
+155            android:name="app_data_collection_default_enabled"
+155-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-63
+156            android:value="true" />
+156-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-33
+157
+158        <service
+158-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-21:19
+159            android:name="com.google.firebase.components.ComponentDiscoveryService"
+159-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-84
+160            android:directBootAware="true"
+160-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-43
+161            android:exported="false" >
+161-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+162            <meta-data
+162-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-20:85
+163                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+163-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-120
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-82
+165            <meta-data
+165-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+166                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+166-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+168            <meta-data
+168-->[com.google.firebase:firebase-database:20.1.0] C:\Users\dell\.gradle\caches\transforms-3\badee49b09dbfe2508d3af44819706b3\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+169                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+169-->[com.google.firebase:firebase-database:20.1.0] C:\Users\dell\.gradle\caches\transforms-3\badee49b09dbfe2508d3af44819706b3\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+170                android:value="com.google.firebase.components.ComponentRegistrar" />
+170-->[com.google.firebase:firebase-database:20.1.0] C:\Users\dell\.gradle\caches\transforms-3\badee49b09dbfe2508d3af44819706b3\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+171            <meta-data
+171-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\7c10eaff25a7549596321c8256f985ce\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:31:13-33:85
+172                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+172-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\7c10eaff25a7549596321c8256f985ce\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:32:17-139
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\7c10eaff25a7549596321c8256f985ce\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:33:17-82
+174            <meta-data
+174-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\dell\.gradle\caches\transforms-3\753d18c64b933ddc0795261e444e43d9\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+175                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+175-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\dell\.gradle\caches\transforms-3\753d18c64b933ddc0795261e444e43d9\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\dell\.gradle\caches\transforms-3\753d18c64b933ddc0795261e444e43d9\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+177            <meta-data
+177-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\dell\.gradle\caches\transforms-3\f33f156619c3292716f589a89619b8ef\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+178                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+178-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\dell\.gradle\caches\transforms-3\f33f156619c3292716f589a89619b8ef\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\dell\.gradle\caches\transforms-3\f33f156619c3292716f589a89619b8ef\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+180        </service>
+181
+182        <provider
+182-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-27:38
+183            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+183-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-88
+184            android:authorities="com.bongomeals.partner.reactnativefirebaseappinitprovider"
+184-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-86
+185            android:exported="false"
+185-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
+186            android:initOrder="99" />
+186-->[:react-native-firebase_app] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-35
+187        <provider
+187-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-16:20
+188            android:name="com.imagepicker.ImagePickerProvider"
+188-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-63
+189            android:authorities="com.bongomeals.partner.imagepickerprovider"
+189-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-71
+190            android:exported="false"
+190-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
+191            android:grantUriPermissions="true" >
+191-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-47
+192            <meta-data
+192-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:70
+193                android:name="android.support.FILE_PROVIDER_PATHS"
+193-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-67
+194                android:resource="@xml/imagepicker_provider_paths" />
+194-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+195        </provider>
+196
+197        <activity
+197-->[:react-native-razorpay] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-razorpay\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-10:86
+198            android:name="com.razorpay.CheckoutActivity"
+198-->[:react-native-razorpay] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-razorpay\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-57
+199            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+199-->[:react-native-razorpay] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-razorpay\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-83
+200            android:exported="false"
+200-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:54:13-37
+201            android:theme="@style/CheckoutTheme" >
+201-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:55:13-49
+202            <intent-filter>
+202-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:56:13-58:29
+203                <action android:name="android.intent.action.MAIN" />
+203-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:59:13-65
+203-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:59:21-62
+204            </intent-filter>
+205        </activity>
+206
+207        <provider
+207-->[:react-native-webview] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-16:20
+208            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+208-->[:react-native-webview] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-83
+209            android:authorities="com.bongomeals.partner.fileprovider"
+209-->[:react-native-webview] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-64
+210            android:exported="false"
+210-->[:react-native-webview] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
+211            android:grantUriPermissions="true" >
+211-->[:react-native-webview] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-47
+212            <meta-data
+212-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:70
+213                android:name="android.support.FILE_PROVIDER_PATHS"
+213-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-67
+214                android:resource="@xml/file_provider_paths" />
+214-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+215        </provider>
+216        <provider
+216-->[:rn-fetch-blob] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:9-40:20
+217            android:name="com.RNFetchBlob.Utils.FileProvider"
+217-->[:rn-fetch-blob] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-62
+218            android:authorities="com.bongomeals.partner.provider"
+218-->[:rn-fetch-blob] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-60
+219            android:exported="false"
+219-->[:rn-fetch-blob] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-37
+220            android:grantUriPermissions="true" >
+220-->[:rn-fetch-blob] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-47
+221            <meta-data
+221-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:70
+222                android:name="android.support.FILE_PROVIDER_PATHS"
+222-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-67
+223                android:resource="@xml/provider_paths" />
+223-->[:react-native-image-picker] C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+224        </provider>
+225        <provider
+225-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+226            android:name="androidx.startup.InitializationProvider"
+226-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+227            android:authorities="com.bongomeals.partner.androidx-startup"
+227-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+228            android:exported="false" >
+228-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+229            <meta-data
+229-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+230                android:name="androidx.work.WorkManagerInitializer"
+230-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+231                android:value="androidx.startup" />
+231-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+232            <meta-data
+232-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\56f038526f903ccf6e98f4a2d24b95f6\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+233                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+233-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\56f038526f903ccf6e98f4a2d24b95f6\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+234                android:value="androidx.startup" />
+234-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\56f038526f903ccf6e98f4a2d24b95f6\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+235            <meta-data
+235-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dell\.gradle\caches\transforms-3\42fbb4ec3f226f2a6385070df69142f6\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+236                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+236-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dell\.gradle\caches\transforms-3\42fbb4ec3f226f2a6385070df69142f6\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+237                android:value="androidx.startup" />
+237-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dell\.gradle\caches\transforms-3\42fbb4ec3f226f2a6385070df69142f6\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+238        </provider>
+239
+240        <service
+240-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+241            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+241-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+242            android:directBootAware="false"
+242-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+243            android:enabled="@bool/enable_system_alarm_service_default"
+243-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+244            android:exported="false" />
+244-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+245        <service
+245-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+246            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+246-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+247            android:directBootAware="false"
+247-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+248            android:enabled="@bool/enable_system_job_service_default"
+248-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+249            android:exported="true"
+249-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+250            android:permission="android.permission.BIND_JOB_SERVICE" />
+250-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+251        <service
+251-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+252            android:name="androidx.work.impl.foreground.SystemForegroundService"
+252-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+253            android:directBootAware="false"
+253-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+254            android:enabled="@bool/enable_system_foreground_service_default"
+254-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+255            android:exported="false" />
+255-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+256
+257        <receiver
+257-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+258            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+258-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+259            android:directBootAware="false"
+259-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+260            android:enabled="true"
+260-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+261            android:exported="false" />
+261-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+262        <receiver
+262-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+263            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+263-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+264            android:directBootAware="false"
+264-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+265            android:enabled="false"
+265-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+266            android:exported="false" >
+266-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+267            <intent-filter>
+267-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+268                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+268-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+268-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+269                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+269-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+269-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+270            </intent-filter>
+271        </receiver>
+272        <receiver
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+273            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+273-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+274            android:directBootAware="false"
+274-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+275            android:enabled="false"
+275-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+276            android:exported="false" >
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+277            <intent-filter>
+277-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+278                <action android:name="android.intent.action.BATTERY_OKAY" />
+278-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+278-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+279                <action android:name="android.intent.action.BATTERY_LOW" />
+279-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+279-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+280            </intent-filter>
+281        </receiver>
+282        <receiver
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+283            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+283-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+284            android:directBootAware="false"
+284-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+285            android:enabled="false"
+285-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+286            android:exported="false" >
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+287            <intent-filter>
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+288                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+288-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+288-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+289                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+289-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+289-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+290            </intent-filter>
+291        </receiver>
+292        <receiver
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+293            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+293-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+294            android:directBootAware="false"
+294-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+295            android:enabled="false"
+295-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+296            android:exported="false" >
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+297            <intent-filter>
+297-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+298                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+298-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+298-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+299            </intent-filter>
+300        </receiver>
+301        <receiver
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+302            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+302-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+303            android:directBootAware="false"
+303-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+304            android:enabled="false"
+304-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+305            android:exported="false" >
+305-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+306            <intent-filter>
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+307                <action android:name="android.intent.action.BOOT_COMPLETED" />
+307-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:37:17-79
+307-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:37:25-76
+308                <action android:name="android.intent.action.TIME_SET" />
+308-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+308-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+309                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+309-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+309-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+310            </intent-filter>
+311        </receiver>
+312        <receiver
+312-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+313            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+313-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+314            android:directBootAware="false"
+314-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+315            android:enabled="@bool/enable_system_alarm_service_default"
+315-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+316            android:exported="false" >
+316-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+317            <intent-filter>
+317-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+318                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+318-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+318-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+319            </intent-filter>
+320        </receiver>
+321        <receiver
+321-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+322            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+322-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+323            android:directBootAware="false"
+323-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+324            android:enabled="true"
+324-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+325            android:exported="true"
+325-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+326            android:permission="android.permission.DUMP" >
+326-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+327            <intent-filter>
+327-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+328                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+328-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+328-->[androidx.work:work-runtime:2.7.1] C:\Users\dell\.gradle\caches\transforms-3\8e92ccb68b5e6efa4b8ae449a8e1b22b\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+329            </intent-filter>
+330        </receiver>
+331
+332        <service
+332-->[androidx.room:room-runtime:2.2.5] C:\Users\dell\.gradle\caches\transforms-3\30df1fa258af33b5005a3e0b2ec65116\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+333            android:name="androidx.room.MultiInstanceInvalidationService"
+333-->[androidx.room:room-runtime:2.2.5] C:\Users\dell\.gradle\caches\transforms-3\30df1fa258af33b5005a3e0b2ec65116\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+334            android:directBootAware="true"
+334-->[androidx.room:room-runtime:2.2.5] C:\Users\dell\.gradle\caches\transforms-3\30df1fa258af33b5005a3e0b2ec65116\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+335            android:exported="false" />
+335-->[androidx.room:room-runtime:2.2.5] C:\Users\dell\.gradle\caches\transforms-3\30df1fa258af33b5005a3e0b2ec65116\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+336
+337        <receiver
+337-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:42:9-49:20
+338            android:name="com.razorpay.RzpTokenReceiver"
+338-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:43:13-57
+339            android:exported="true" >
+339-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:44:13-36
+340            <intent-filter>
+340-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:46:13-48:29
+341                <action android:name="rzp.device_token.share" />
+341-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:37:13-61
+341-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:37:21-58
+342            </intent-filter>
+343        </receiver>
+344
+345        <meta-data
+345-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:61:9-63:58
+346            android:name="com.razorpay.plugin.googlepay_all"
+346-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:62:13-61
+347            android:value="com.razorpay.RzpGpayMerged" />
+347-->[com.razorpay:checkout:1.6.34] C:\Users\dell\.gradle\caches\transforms-3\a3b281e96f70265cc5daee5f419b9284\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:63:13-55
+348
+349        <activity
+349-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\dell\.gradle\caches\transforms-3\149d81c6eb69cdb34808d25a1009cf4a\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:23:9-27:75
+350            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+350-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\dell\.gradle\caches\transforms-3\149d81c6eb69cdb34808d25a1009cf4a\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:24:13-93
+351            android:excludeFromRecents="true"
+351-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\dell\.gradle\caches\transforms-3\149d81c6eb69cdb34808d25a1009cf4a\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:25:13-46
+352            android:exported="false"
+352-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\dell\.gradle\caches\transforms-3\149d81c6eb69cdb34808d25a1009cf4a\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:26:13-37
+353            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+353-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\dell\.gradle\caches\transforms-3\149d81c6eb69cdb34808d25a1009cf4a\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:27:13-72
+354        <!--
+355            Service handling Google Sign-In user revocation. For apps that do not integrate with
+356            Google Sign-In, this service will never be started.
+357        -->
+358        <service
+358-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\dell\.gradle\caches\transforms-3\149d81c6eb69cdb34808d25a1009cf4a\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:33:9-37:51
+359            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+359-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\dell\.gradle\caches\transforms-3\149d81c6eb69cdb34808d25a1009cf4a\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:34:13-89
+360            android:exported="true"
+360-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\dell\.gradle\caches\transforms-3\149d81c6eb69cdb34808d25a1009cf4a\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:35:13-36
+361            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+361-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\dell\.gradle\caches\transforms-3\149d81c6eb69cdb34808d25a1009cf4a\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:36:13-107
+362            android:visibleToInstantApps="true" />
+362-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\dell\.gradle\caches\transforms-3\149d81c6eb69cdb34808d25a1009cf4a\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:37:13-48
+363
+364        <meta-data
+364-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\dell\.gradle\caches\transforms-3\4cca7915a0da04a29c037ec7e81c8b68\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:11:9-13:43
+365            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+365-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\dell\.gradle\caches\transforms-3\4cca7915a0da04a29c037ec7e81c8b68\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:12:13-84
+366            android:value="GlideModule" /> <!-- Needs to be explicitly declared on P+ -->
+366-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\dell\.gradle\caches\transforms-3\4cca7915a0da04a29c037ec7e81c8b68\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:13:13-40
+367        <uses-library
+367-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\dell\.gradle\caches\transforms-3\4ce1a811539468a6aefb5e2869c33714\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+368            android:name="org.apache.http.legacy"
+368-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\dell\.gradle\caches\transforms-3\4ce1a811539468a6aefb5e2869c33714\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+369            android:required="false" />
+369-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\dell\.gradle\caches\transforms-3\4ce1a811539468a6aefb5e2869c33714\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+370
+371        <receiver
+371-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+372            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+372-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+373            android:exported="true"
+373-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+374            android:permission="com.google.android.c2dm.permission.SEND" >
+374-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+375            <intent-filter>
+375-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:35:13-37:29
+376                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+376-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:36:17-81
+376-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:36:25-78
+377            </intent-filter>
+378        </receiver>
+379        <!--
+380             FirebaseMessagingService performs security checks at runtime,
+381             but set to not exported to explicitly avoid allowing another app to call it.
+382        -->
+383        <service
+383-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+384            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+384-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+385            android:directBootAware="true"
+385-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+386            android:exported="false" >
+386-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\dell\.gradle\caches\transforms-3\a574946c20b2151cd75289586fd58bc6\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+387            <intent-filter android:priority="-500" >
+387-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:46:13-48:29
+388                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+388-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:47:17-78
+388-->C:\Users\dell\Desktop\ReactProjects\food\bongomeals_partner\android\app\src\main\AndroidManifest.xml:47:25-75
+389            </intent-filter>
+390        </service>
+391
+392        <activity
+392-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\dell\.gradle\caches\transforms-3\be825c3e5ff83d3d7a09523b9456df55\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+393            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+393-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\dell\.gradle\caches\transforms-3\be825c3e5ff83d3d7a09523b9456df55\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+394            android:exported="false"
+394-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\dell\.gradle\caches\transforms-3\be825c3e5ff83d3d7a09523b9456df55\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+395            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+395-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\dell\.gradle\caches\transforms-3\be825c3e5ff83d3d7a09523b9456df55\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+396
+397        <provider
+397-->[com.google.firebase:firebase-common:20.3.2] C:\Users\dell\.gradle\caches\transforms-3\fc100b444f17586c6d3d5520ca6766c3\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+398            android:name="com.google.firebase.provider.FirebaseInitProvider"
+398-->[com.google.firebase:firebase-common:20.3.2] C:\Users\dell\.gradle\caches\transforms-3\fc100b444f17586c6d3d5520ca6766c3\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+399            android:authorities="com.bongomeals.partner.firebaseinitprovider"
+399-->[com.google.firebase:firebase-common:20.3.2] C:\Users\dell\.gradle\caches\transforms-3\fc100b444f17586c6d3d5520ca6766c3\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+400            android:directBootAware="true"
+400-->[com.google.firebase:firebase-common:20.3.2] C:\Users\dell\.gradle\caches\transforms-3\fc100b444f17586c6d3d5520ca6766c3\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+401            android:exported="false"
+401-->[com.google.firebase:firebase-common:20.3.2] C:\Users\dell\.gradle\caches\transforms-3\fc100b444f17586c6d3d5520ca6766c3\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+402            android:initOrder="100" />
+402-->[com.google.firebase:firebase-common:20.3.2] C:\Users\dell\.gradle\caches\transforms-3\fc100b444f17586c6d3d5520ca6766c3\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+403
+404        <receiver
+404-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:29:9-33:20
+405            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+405-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:30:13-85
+406            android:enabled="true"
+406-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:31:13-35
+407            android:exported="false" >
+407-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:32:13-37
+408        </receiver>
+409
+410        <service
+410-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:35:9-38:40
+411            android:name="com.google.android.gms.measurement.AppMeasurementService"
+411-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:36:13-84
+412            android:enabled="true"
+412-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:37:13-35
+413            android:exported="false" />
+413-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:38:13-37
+414        <service
+414-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:39:9-43:72
+415            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+415-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:40:13-87
+416            android:enabled="true"
+416-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:41:13-35
+417            android:exported="false"
+417-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:42:13-37
+418            android:permission="android.permission.BIND_JOB_SERVICE" />
+418-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\dell\.gradle\caches\transforms-3\2b8f63081529f57535ab44a50bf9a84d\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:43:13-69
+419
+420        <meta-data
+420-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\dell\.gradle\caches\transforms-3\ad6b915b9e302a7dcc777057581e8d0b\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+421            android:name="com.google.android.gms.version"
+421-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\dell\.gradle\caches\transforms-3\ad6b915b9e302a7dcc777057581e8d0b\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+422            android:value="@integer/google_play_services_version" />
+422-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\dell\.gradle\caches\transforms-3\ad6b915b9e302a7dcc777057581e8d0b\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+423
+424        <service
+424-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\dell\.gradle\caches\transforms-3\867a7447de09e9913ff55af8c1ac1315\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+425            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+425-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\dell\.gradle\caches\transforms-3\867a7447de09e9913ff55af8c1ac1315\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+426            android:exported="false" >
+426-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\dell\.gradle\caches\transforms-3\867a7447de09e9913ff55af8c1ac1315\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+427            <meta-data
+427-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\dell\.gradle\caches\transforms-3\867a7447de09e9913ff55af8c1ac1315\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+428                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+428-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\dell\.gradle\caches\transforms-3\867a7447de09e9913ff55af8c1ac1315\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+429                android:value="cct" />
+429-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\dell\.gradle\caches\transforms-3\867a7447de09e9913ff55af8c1ac1315\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+430        </service>
+431        <service
+431-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dell\.gradle\caches\transforms-3\753faaa3fa6693eb9ed0a87837898abc\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+432            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+432-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dell\.gradle\caches\transforms-3\753faaa3fa6693eb9ed0a87837898abc\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+433            android:exported="false"
+433-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dell\.gradle\caches\transforms-3\753faaa3fa6693eb9ed0a87837898abc\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+434            android:permission="android.permission.BIND_JOB_SERVICE" >
+434-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dell\.gradle\caches\transforms-3\753faaa3fa6693eb9ed0a87837898abc\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+435        </service>
+436
+437        <receiver
+437-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dell\.gradle\caches\transforms-3\753faaa3fa6693eb9ed0a87837898abc\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+438            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+438-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dell\.gradle\caches\transforms-3\753faaa3fa6693eb9ed0a87837898abc\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+439            android:exported="false" />
+439-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\dell\.gradle\caches\transforms-3\753faaa3fa6693eb9ed0a87837898abc\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+440    </application>
+441
+442</manifest>
